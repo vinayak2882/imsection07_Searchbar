@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#searchbar{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid;
+    width: 40%;
+    height: 50px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+}
+
+#outputdiv{
+    margin: auto;
+    padding: 15px;
+    width: 40%;
+    font-size: 25px;
+    height: 480px;
+    overflow: hidden;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <input id="searchbar" oninput={hudaklavkar(pablo,1000)} type="text" placeholder="Search Countries " value=""/>
+    </div>
+    <div id="outputdiv"></div>
+</body>
+</html>
+<script src="/index.js"></script>
